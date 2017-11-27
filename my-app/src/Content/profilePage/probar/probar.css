@@ -1,0 +1,75 @@
+.navbarcustom{
+    border-radius: 0px;
+    background-color: #640064;
+    border-color: #640064;
+}
+
+.logo{
+    width: 170px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.form-size {
+    width: 170px;
+    height: 32px;
+    color: gainsboro;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.Search {
+    width: 330px !important;
+    height: 35px;
+    margin-top: 3px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.uploadbutton {
+    background-color: #640064;
+    padding-right: 0;
+    padding-left: 8px;
+    border-color: #640064;
+}
+
+.uploadbutton:hover{
+  background-color: #640064;
+  border-color: #640064;
+}
+
+.uploadicon {
+    width: 100px;
+}
+
+.naviconHouse {
+    width: 25px;
+    margin-right: 0px;
+}
+
+.naviconCompetition {
+    width: 25.5px;
+    margin-right: 0px;
+}
+
+.naviconNotification {
+    width: 20px;
+    margin-right: 0px;
+    margin-left: 2px;
+}
+
+.navprofilepic {
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+}
+.naviconPower {
+    width: 25px;
+    margin-left: 13px;
+}
+.accountholdername {
+    background-color: #640064;
+    color: #E1C8FF;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 100;
+   
+    margin-top: 15px;
+}

@@ -1,0 +1,63 @@
+.navbarcustom{
+    border-radius: 0px !important;
+    background-color: #640064 !important;
+    border-color: #640064 !important;
+}
+
+.logo{
+    width:220px !important;
+    margin-left:5px !important;
+}
+
+.form-size {
+    width: 170px !important;
+    height: 32px !important;
+    color: black !important;
+    border-radius: 7px 7px 7px 7px !important;
+}
+
+.first_item{
+  margin-top: 7px !important;
+  margin-right: 20px !important;
+}
+
+.secound_item{
+  margin-top: 7px !important;
+  margin-right: 20px !important;
+}
+
+.third_item{
+  margin-top: 7px !important;
+  margin-right: 20px !important;
+}
+
+.forth_item{
+  margin-top: 15px !important;
+  color: white !important;
+  margin-right: 20px !important;
+}
+
+.fifth_item{
+  margin-top:7px !important;
+}
+
+
+.ForgotPassword{
+  text-decoration: none !important;
+}
+
+.login-button {
+    height: 35px !important;
+    background-color: #32CD32 !important;
+    text-align: center !important;
+    color: #FFFFFF !important;
+}
+
+.FB-login {
+    height: 35px !important;
+    width: 85px !important;
+    text-align: center !important;
+    margin-right: 0px !important; 
+    padding-right: 0px !important;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="landingpage.css">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbarcustom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="logo"><img src="icons/glostars%20logo%20small%20lv.png" class="logo"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="first_item">
+                  <input class="form-control form-size" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="text" value="">
+                  <input data-val="true" data-val-required="The Remember me field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true" class="checkbox-circle"><input name="RememberMe" type="hidden" value="false">
+                    <span style="color:white;">Remember Me</span>
+                </li>
+                <li class="secound_item">
+                  <input class="form-control form-size" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password">
+                  <div class="login-bottom-text hidden-sm"><a href="/Account/ForgotPassword" class="ForgotPassword" style="color: white;">Forgot password?</a></div>
+                </li>
+                <li class="third_item"><input type="submit" value="Log in" class="btn btn-default btn-header-login login-button"></li>
+                <li class="forth_item">Or</li>
+                <li class="fifth_item">
+                <div>
+                  <a href="#"><img src="LPIcons/FB%20log%20in.png" class="FB-login"></a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
