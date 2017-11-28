@@ -3,27 +3,36 @@ import React from 'react';
 export default class Body extends React.Component{
     render()
     {
+        const bgImg = require('../Content/NewDesign/img1/jump.jpg');
+        
+   
         var numberone = {
-            paddingTop:80
-        }
+            paddingTop:80,
+            backgroundImage: 'url(' + bgImg + ')'
+        };
 
         var numbertwo = {
-            textShadow: "0 0 10px #640064"
-        }
+            textShadow: "0 0 10px",
+            color: "#640064"
+        };
 
         var numberthree = {
             fontSize:17
-        }
+        };
 
         var numberfour = {
             fontSize:15
-        }
+        };
+
+        var item1Pic = require('../Content/profilePage/landingpagephoto/first.png');
+        var item2Pic = require('../Content/profilePage/landingpagephoto/secound.png');
+        var item3Pic = require('../Content/profilePage/landingpagephoto/third.png');
 
         return(
             <div>
                 <div className="signupPortion" style={numberone}>
-                    <h1 style={numbertwo}>Experience best in photosharing!</h1>
-                    <h3 style={numbertwo}>Share everyday moments, win prize</h3>
+                    <h1 style={numbertwo}>Cradle of creativity!</h1>
+                    <h3 style={numbertwo}>Win awards and spots in photo exhibitions</h3>
                     <button type="button" className="btn login-button Signup" data-toggle="modal" data-target="#ModelName" aria-hidden="true">
                         Sign up
                     </button>
@@ -33,7 +42,7 @@ export default class Body extends React.Component{
                     <div className=" Ppart">
                         <section>
                             <div className="item-1">           
-                                <img src="~/Content/profilePage/landingpagephoto/first.png" className="Pimage1"/>
+                                <img src={item1Pic} className="Pimage1"/>
                                 <p className="P2">
                                     <b style={numberthree}>Tired of uploading photos and not getting anything in return?</b>
                                     <br />
@@ -43,15 +52,13 @@ export default class Body extends React.Component{
                                         photos. We don’t have any judges, photos are rated by the user community itself.
                                     </span>
                                     <br/>
-                                   
                                 </p>
-
                             </div>
                         </section>
                         <hr/>
                         <section>
                             <div className="item-2">              
-                                <img src="~/Content/profilePage/landingpagephoto/secound.png" className="Pimage" />
+                                <img src={item2Pic} className="Pimage" />
                                 <p className="ptext">
                                     <b style={numberthree}>Are you looking for a way to get yourself known?</b>
                                     <br />
@@ -61,15 +68,13 @@ export default class Body extends React.Component{
                                         bit of creativity.
                                     </span>
                                     <br/>
-                                   
                                 </p>
-
                             </div>
                         </section>
                         <hr/>
                         <section>
                             <div className="item-3">             
-                                <img src="~/Content/profilePage/landingpagephoto/third.png" className="Pimage1" />
+                                <img src={item3Pic} className="Pimage1" />
                                 <p className="P2">
                                     <b style={numberthree}>Do you want to explore new places and connect with new people?</b>
                                     <br />
@@ -78,7 +83,6 @@ export default class Body extends React.Component{
                                         by people with different backgrounds and skill levels. Everybody is welcome!
                                     </span>
                                     <br/>
-                                   
                                 </p>
                             </div>
                         </section>

@@ -327,7 +327,8 @@ header .form-group{
     flex-direction: row;
 }
 .signupPortion{
-    /* background-image:url(../img1/jump.jpg); */
+    /* background-image:url(../img1/jump.jpg);  */
+    /* background-image:url(..);  */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;

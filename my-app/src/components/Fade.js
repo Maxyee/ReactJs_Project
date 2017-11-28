@@ -5,55 +5,55 @@ export default class Fade extends React.Component{
 
         var styleone = {
             backgroundColor: "white"
-        }
+        };
         
-        var styletwo = {
+        // var styletwo = {
             
-        }
+        // }
       
-        var stylethree = {
+        // var stylethree = {
             
-        }
+        // }
       
-        var stylefour = {
+        // var stylefour = {
             
-        }
+        // }
                                           
 
 
         return(
             <div>
-                <div class="modal fade modal-md" id="ModelName" tabindex="-1" role="dialog" aria-labelledby="ModelNameLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="HeaderOfSignup"></h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <div className="modal fade modal-md" id="ModelName" tabIndex="-1" role="dialog" aria-labelledby="ModelNameLabel" aria-hidden="true">
+                    <div className="modal-dialog" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="HeaderOfSignup"></h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
 
-                            <div class="container PopupSignup">
-                                <h5 class="HeaderOfSignup"><b>Sign up</b></h5>
+                            <div className="container PopupSignup">
+                                <h5 className="HeaderOfSignup"><b>Sign up</b></h5>
                             
-                                <input class="signupFrom" type="text" name="Name" id="Name" placeholder="First name" required autocomplete="off"/>
+                                <input className="signupFrom" type="text" name="Name" id="Name" placeholder="First name" required autoComplete="off"/>
                                 
-                                <input class="signupFrom" type="text" name="LastName" id="LastName" placeholder="Last name" required autocomplete="off"/>
+                                <input className="signupFrom" type="text" name="LastName" id="LastName" placeholder="Last name" required autoComplete="off"/>
                             
-                                <input class="signupFrom" type="email" name="Email" id="Email" placeholder="@Resources.Content.Email" required autocomplete="off"/>
+                                <input className="signupFrom" type="email" name="Email" id="Email" placeholder="@Resources.Content.Email" required autoComplete="off"/>
                                 
-                                <input class="signupFrom" type="password" name="Password" placeholder="@Resources.Content.Password (minimum 8 characters)" pattern=".{8,}" required title="Must be at least 8 characters" autocomplete="off"/>
+                                <input className="signupFrom" type="password" name="Password" placeholder="@Resources.Content.Password (minimum 8 characters)" pattern=".{8,}" required title="Must be at least 8 characters" autoComplete="off"/>
                                 <br/>
                                 
-                                <select class="signupFrom" data-val="true" data-val-required="The Gender field is required." id="Gender" name="Gender" required>
+                                <select className="signupFrom" data-val="true" data-val-required="The Gender field is required." id="Gender" name="Gender" required>
                                     <option value="">Gender</option>
                                     <option value="Male">Male</option>
                                     <option value="Female">Female</option>
                                 </select>
                                 <br/>
-                                <label class="date"><b>Date of birth</b></label>
+                                <label className="date"><b>Date of birth</b></label>
                                 <div>
-                                    <select class="day" data-val="true" data-val-number="The field Day must be a number." data-val-required="The Day field is required." id="BirthdayDay" name="BirthdayDay" required>
+                                    <select className="day" data-val="true" data-val-number="The field Day must be a number." data-val-required="The Day field is required." id="BirthdayDay" name="BirthdayDay" required>
                                         <option value="">Day</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -88,7 +88,7 @@ export default class Fade extends React.Component{
                                         <option value="31">31</option>
                                     </select>
 
-                                    <select class="month" data-val="true" data-val-number="The field Month must be a number." data-val-required="The Month field is required." id="BirthdayMonth" name="BirthdayMonth" required="required">
+                                    <select className="month" data-val="true" data-val-number="The field Month must be a number." data-val-required="The Month field is required." id="BirthdayMonth" name="BirthdayMonth" required="required">
                                         <option value="">Month</option>
                                         <option value="1">Jan</option>
                                         <option value="2">Feb</option>
@@ -104,7 +104,7 @@ export default class Fade extends React.Component{
                                         <option value="12">Dec</option>
                                     </select>
                                 
-                                    <select class="year" data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="BirthdayYear" name="BirthdayYear" required="required">
+                                    <select className="year" data-val="true" data-val-number="The field Year must be a number." data-val-required="The Year field is required." id="BirthdayYear" name="BirthdayYear" required="required">
                                         <option value="">Year</option>
                                         <option value="2015">2015</option>
                                         <option value="2014">2014</option>
@@ -175,35 +175,35 @@ export default class Fade extends React.Component{
                                     </select>
                                 </div>
                             
-                                <small>@Resources.Content.AgreeToTerms <a class="Terms date" a href="#" data-toggle="modal" data-target="#ModelNameTerm2" aria-hidden="true">@Resources.Content.ToULink</a> </small>
+                                <small>@Resources.Content.AgreeToTerms <a className="Terms date" href="#" data-toggle="modal" data-target="#ModelNameTerm2" aria-hidden="true">@Resources.Content.ToULink</a> </small>
                                
                                 <br/>
                                 <br/>
-                                <button type="submit" class="CreateAccount date">@Resources.Content.CreateAccount</button>
+                                <button type="submit" className="CreateAccount date">@Resources.Content.CreateAccount</button>
                                 <br/>
-                                <p class="optionOFSignup">or</p>
+                                <p className="optionOFSignup">or</p>
                                
-                                <a href="/Authorize/Facebook" class="btn AccountSignup"><img src="~/Content/NewDesign/LPIcons/FBsignup.png" class="FB-Signup"/></a>
+                                <a href="/Authorize/Facebook" className="btn AccountSignup"><img src="~/Content/NewDesign/LPIcons/FBsignup.png" className="FB-Signup"/></a>
                             </div>
 
-                            <div class="modal fade modal-md" id="ModelNameTerm2" tabindex="-1" role="dialog" aria-labelledby="ModelNameLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content" style={styleone}>
+                            <div className="modal fade modal-md" id="ModelNameTerm2" tabIndex="-1" role="dialog" aria-labelledby="ModelNameLabel" aria-hidden="true">
+                                <div className="modal-dialog" role="document">
+                                    <div className="modal-content" style={styleone}>
 
-                                        <div class="modal-header">
-                                            <h5 class="HeaderOfSignup"></h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <div className="modal-header">
+                                            <h5 className="HeaderOfSignup"></h5>
+                                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                                                 <span aria-hidden="true">&times;</span>
                                             </button>
                                         </div>
 
 
 
-                                        <div class="container PopupSignup">
+                                        <div className="container PopupSignup">
 
-                                            <h5 class="HeaderOfSignup"><b>Terms of Use</b></h5>
+                                            <h5 className="HeaderOfSignup"><b>Terms of Use</b></h5>
 
-                                            <div class="row">
+                                            <div className="row">
                                                 1. Minimum age for using the Service is 13.
                                                 <br />
                                                 2. You may not post violent, nude, partially nude, discriminatory, unlawful, infringing, hateful,
@@ -303,7 +303,7 @@ export default class Fade extends React.Component{
                                             </div>
 
                                             <div>
-                                                <button id="modal-close-btn-2" type="button" class="btn btn-default" aria-label="Close">
+                                                <button id="modal-close-btn-2" type="button" className="btn btn-default" aria-label="Close">
                                                     <span aria-hidden="true">Close</span>
                                                 </button>
                                             </div>
