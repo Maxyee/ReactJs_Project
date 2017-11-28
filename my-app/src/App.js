@@ -2,18 +2,15 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
+//js files..
+import Header from './components/ProfilePage/Header';
+import Profile from './components/ProfilePage/Profile';
+import Competition from './components/ProfilePage/Competition';
+import Public from './components/ProfilePage/Public';
+import Mutual from './components/ProfilePage/Mutual';
 
-
-import Header from './components/Header';
-import Body from './components/Body';
-import Footer from './components/Footer';
-import Fade from './components/Fade';
-
-import './components/cssComponents/NAV.css';
-// import './components/cssComponents/normalize.css';
-
-
-
+//css files
+import './components/cssComponents/profilePage.css';
 
 
 class App extends Component {
@@ -21,9 +18,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <Body/>
-        <Footer/>
-        <Fade/>
+        <Profile/>
+        <Competition/>
+        <Public/>
+        <Mutual/>
       </div>
     );
   }
