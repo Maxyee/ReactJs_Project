@@ -8,6 +8,7 @@ import Profile from './components/ProfilePage/Profile';
 import Competition from './components/ProfilePage/Competition';
 import Public from './components/ProfilePage/Public';
 import Mutual from './components/ProfilePage/Mutual';
+import Fade from './components/ProfilePage/Fade';
 
 //css files
 import './components/cssComponents/profilePage.css';
@@ -22,6 +23,7 @@ class App extends Component {
         <Competition/>
         <Public/>
         <Mutual/>
+        <Fade/>
       </div>
     );
   }
