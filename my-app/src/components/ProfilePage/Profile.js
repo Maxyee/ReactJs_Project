@@ -13,20 +13,20 @@ export default class Profile extends React.Component{
 
         return(
             <div>
-                <div class="container-floating profilePortion">
-                    <div class="row PFPI">
-                        <div class="col-lg-4 col-xl-4 PI">
-                            <div class="ProfileImageName">
-                                <img src={manandwoman} class="profilepic"/>
+                <div className="container-floating profilePortion">
+                    <div className="row PFPI">
+                        <div className="col-lg-4 col-xl-4 PI">
+                            <div className="ProfileImageName">
+                                <img src={manandwoman} className="profilepic"/>
                                 <div> <h5>Your name</h5>
                                     <p>some text some text some text</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-5 col-lg-4 col-xl-4 AB">
-                            <div class="AboutProfile">
-                                <div class="AboutProfiletext">
+                        <div className="col-md-5 col-lg-4 col-xl-4 AB">
+                            <div className="AboutProfile">
+                                <div className="AboutProfiletext">
                                     <h5>About me:</h5>
                                     <p>Some text some text some text some text some text some text some text</p>
 
@@ -34,19 +34,19 @@ export default class Profile extends React.Component{
                                     <p>Some text some text some text some text some text some text some text</p>
                                 </div>
 
-                                <a href="#" class="EditProfile" data-toggle="modal" data-target="#ModelName" aria-hidden="true">Edit</a>
+                                <a href="#" className="EditProfile" data-toggle="modal" data-target="#ModelName" aria-hidden="true">Edit</a>
                             </div>
                         </div>
 
 
-                        <div class="col-md-5 col-lg-4 col-xl-4 RG">
-                            <div class="recognition">
+                        <div className="col-md-5 col-lg-4 col-xl-4 RG">
+                            <div className="recognition">
                                 <h5>Recognition:</h5>
                                 <br/>
-                                <a href="#"><img src={badgeWeekly} class="badges"/></a>
-                                <a href="#"><img src={badgeMonthly} class="badges"/></a>
-                                <a href="#"><img src={badgeGrand} class="badges"/></a>
-                                <a href="#"><img src={badgeExhibition} class="badges"/></a>
+                                <a href="#"><img src={badgeWeekly} className="badges"/></a>
+                                <a href="#"><img src={badgeMonthly} className="badges"/></a>
+                                <a href="#"><img src={badgeGrand} className="badges"/></a>
+                                <a href="#"><img src={badgeExhibition} className="badges"/></a>
                             </div>
                         </div>
 
@@ -56,11 +56,11 @@ export default class Profile extends React.Component{
 
                 </div>
 
-                <div class="container photoinfo">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4 col-xl-4 Photo">31 Photos</div>
-                        <div class="col-md-4 col-lg-4 col-xl-4 following">34 Following</div>
-                        <div class="col-md-4 col-lg-4 col-xl-4 follower">23 Followers</div>
+                <div className="container photoinfo">
+                    <div className="row">
+                        <div className="col-md-4 col-lg-4 col-xl-4 Photo">31 Photos</div>
+                        <div className="col-md-4 col-lg-4 col-xl-4 following">34 Following</div>
+                        <div className="col-md-4 col-lg-4 col-xl-4 follower">23 Followers</div>
                     </div>
                 </div>
                 <br/>

@@ -14,35 +14,35 @@ export default class Mutual extends React.Component{
         
         return(
             <div>
-            <div class="container competition">
+            <div className="container competition">
                 <h6>Mutual follower Photos</h6>
-                    <div class="row">
+                    <div className="row">
 
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={imagenumber1} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={imagenumber1} className="ImageG"/></a>
                         </div>
 
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={imagenumber2} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={imagenumber2} className="ImageG"/></a>
                         </div>
                         
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={imagenumber6} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={imagenumber6} className="ImageG"/></a>
                         </div>
 
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={imagenumber9} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={imagenumber9} className="ImageG"/></a>
                         </div>
 
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={imagenumber12} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={imagenumber12} className="ImageG"/></a>
                         </div>
 
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
-                            <a href="img1/numbers-01.jpg"><img src={unique} class="ImageG"/></a>
+                        <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4 imageP">
+                            <a href="img1/numbers-01.jpg"><img src={unique} className="ImageG"/></a>
                         </div>
 
-                        <a href="#" class="AllImage">See all</a>
+                        <a href="#" className="AllImage">See all</a>
                     </div>
                 </div>
             </div>
