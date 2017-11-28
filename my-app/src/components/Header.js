@@ -24,9 +24,13 @@ export default class Header extends React.Component{
             marginLeft:10
         };
 
-        var colorstyle = {
-            color:"white"
-        }
+        var forgot = {
+            color:"white",
+        };
+
+        var remember = {
+           
+        };
 
         return(
             <div>
@@ -49,7 +53,7 @@ export default class Header extends React.Component{
                                             <div className="form-group email">
                                                 <input className="form-control form-size" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="text" value=""/>
                                                 <div className="login-bottom-text radio hidden-sm" style={marginstyle}>
-                                                    <label className="remember">                   
+                                                    <label className="remember" style={remember}>                   
                                                         <input data-val="true" data-val-required="The Remember me field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true" className="checkbox-circle"/><input name="RememberMe" type="hidden" value="false"/>
                                                         Remember Me
                                                     </label>
@@ -60,7 +64,7 @@ export default class Header extends React.Component{
                                         <div className="nav-item">
                                             <div className="form-group remember pass">
                                                 <input className="form-control form-size" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" placeholder="Password" type="password"/>
-                                                <div className="login-bottom-text hidden-sm" style={marginstyle}><a href="/Account/ForgotPassword" className="ForgotPassword" style={colorstyle}>Forgot password?</a></div>
+                                                <div className="login-bottom-text hidden-sm" style={marginstyle}><a href="/Account/ForgotPassword" className="ForgotPassword" style={forgot}>Forgot password?</a></div>
                                             </div>
                                         </div>
 

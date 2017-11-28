@@ -6,6 +6,8 @@ export default class Fade extends React.Component{
         var styleone = {
             backgroundColor: "white"
         };
+
+        var signup = require('../Content/NewDesign/LPIcons/FBsignup.png');
         
         // var styletwo = {
             
@@ -175,15 +177,15 @@ export default class Fade extends React.Component{
                                     </select>
                                 </div>
                             
-                                <small>@Resources.Content.AgreeToTerms <a className="Terms date" href="#" data-toggle="modal" data-target="#ModelNameTerm2" aria-hidden="true">@Resources.Content.ToULink</a> </small>
+                                <small>By clicking Create account you agree to our<a className="Terms date" href="#" data-toggle="modal" data-target="#ModelNameTerm2" aria-hidden="true">Terms of use</a></small>
                                
                                 <br/>
                                 <br/>
-                                <button type="submit" className="CreateAccount date">@Resources.Content.CreateAccount</button>
+                                <button type="submit" className="CreateAccount date">CreateAccount</button>
                                 <br/>
                                 <p className="optionOFSignup">or</p>
                                
-                                <a href="/Authorize/Facebook" className="btn AccountSignup"><img src="~/Content/NewDesign/LPIcons/FBsignup.png" className="FB-Signup"/></a>
+                                <a href="/Authorize/Facebook" className="btn AccountSignup"><img src={signup} className="FB-Signup"/></a>
                             </div>
 
                             <div className="modal fade modal-md" id="ModelNameTerm2" tabIndex="-1" role="dialog" aria-labelledby="ModelNameLabel" aria-hidden="true">

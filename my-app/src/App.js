@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import Fade from './components/Fade';
 
 import './components/cssComponents/NAV.css';
-import './components/cssComponents/normalize.css';
+// import './components/cssComponents/normalize.css';
 
 
 

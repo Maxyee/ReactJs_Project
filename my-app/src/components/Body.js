@@ -12,8 +12,7 @@ export default class Body extends React.Component{
         };
 
         var numbertwo = {
-            textShadow: "0 0 10px",
-            color: "#640064"
+            textShadow: "0 0 10px #640064"   
         };
 
         var numberthree = {
