@@ -3,15 +3,14 @@ import React, { Component } from 'react';
 import './App.css';
 
 //js files..
-import Header from './components/ProfilePage/Header';
-import Profile from './components/ProfilePage/Profile';
-import Competition from './components/ProfilePage/Competition';
-import Public from './components/ProfilePage/Public';
-import Mutual from './components/ProfilePage/Mutual';
-import Fade from './components/ProfilePage/Fade';
+import Header from './components/HomePage/Header';
+import Slider from './components/HomePage/Slider';
+import Body from './components/HomePage/Body';
+import Fade from './components/HomePage/Fade';
+
 
 //css files
-import './components/cssComponents/profilePage.css';
+import './components/cssComponents/Home.css';
 
 
 class App extends Component {
@@ -19,10 +18,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <Profile/>
-        <Competition/>
-        <Public/>
-        <Mutual/>
+        <Slider/>
+        <Body/>
         <Fade/>
       </div>
     );
