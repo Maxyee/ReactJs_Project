@@ -11,6 +11,7 @@ import Fade from './components/HomePage/Fade';
 
 //css files
 import './components/cssComponents/Home.css';
+import './components/cssComponents/gallerybox.css';
 
 
 class App extends Component {

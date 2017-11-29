@@ -17,33 +17,33 @@ export default class Header extends React.Component{
         return(
             <div>
                 <header>
-                    <div class="container-floating Header">
-                        <nav class="navbar navbar-toggleable-md navbar-light">
-                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                    <div className="container-floating Header">
+                        <nav className="navbar navbar-toggleable-md navbar-light">
+                            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
                             </button>
 
-                            <div class="mainlogo">
-                                <a class="navbar-brand MLogo" href="#"><img src={glostarlogo} class="logo"/></a>
+                            <div className="mainlogo">
+                                <a className="navbar-brand MLogo" href="#"><img src={glostarlogo} className="logo"/></a>
                             </div>
 
-                            <div class="collapse navbar-collapse navP" id="navbarSupportedContent">
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item">
-                                    <form class="searchportion">
-                                    <input class="form-control Search" type="text" placeholder="Search..."/>
-                                    <button class="btn my-2 my-sm-0 uploadbutton" type="submit"><img src={upload} class="uploadicon"/></button>
+                            <div className="collapse navbar-collapse navP" id="navbarSupportedContent">
+                                <ul className="navbar-nav mr-auto">
+                                    <li className="nav-item">
+                                    <form className="searchportion">
+                                    <input className="form-control Search" type="text" placeholder="Search..."/>
+                                    <button className="btn my-2 my-sm-0 uploadbutton" type="submit"><img src={upload} className="uploadicon"/></button>
                                     </form>
                                     </li>
                                 </ul>
 
-                                <div class="navright">
-                                    <a href="#"><img src={house} class="naviconHouse"/></a>
-                                    <a href="#"><img src={competition} class="naviconCompetition"/></a>
-                                    <a href="#"><img src={notificatiion} class="naviconNotification"/></a>
-                                    <a href="#"><img src={manandwoman} class="navprofilepic"/></a>
-                                    <button class="btn my-2 my-sm-0 accountholdername" type="submit">Your First name here</button>
-                                    <a href="#"><img src={power} class="naviconPower"/></a>
+                                <div className="navright">
+                                    <a href="#"><img src={house} className="naviconHouse"/></a>
+                                    <a href="#"><img src={competition} className="naviconCompetition"/></a>
+                                    <a href="#"><img src={notificatiion} className="naviconNotification"/></a>
+                                    <a href="#"><img src={manandwoman} className="navprofilepic"/></a>
+                                    <button className="btn my-2 my-sm-0 accountholdername" type="submit">Your First name here</button>
+                                    <a href="#"><img src={power} className="naviconPower"/></a>
                                 </div>
                             </div>
                         </nav>
