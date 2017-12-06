@@ -24,7 +24,7 @@ export default class Header extends React.Component{
                             </button>
 
                             <div className="mainlogo">
-                                <a className="navbar-brand MLogo" href="#"><img src={glostarlogo} className="logo"/></a>
+                                <a className="navbar-brand MLogo" href=".."><img src={glostarlogo} className="logo"/></a>
                             </div>
 
                             <div className="collapse navbar-collapse navP" id="navbarSupportedContent">
